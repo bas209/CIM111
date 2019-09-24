@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter&display=swap');
+
+img{filter: saturate(110%);
+  
+}
+
+#Name{
+  font-family: 'Bitter', serif;
+}
+
+a:hover {
+  color: red
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a{
+  color: SlateBlue
+}
+
+address{
+  color: MediumSeaGreen
+}
+
+p{
+  color: MediumSeaGreen
+}
+
+ #Address{
+  color: DodgerBlue
+}
+
+  #Education{
+    color: DodgerBlue
+}
+
+#GPA{
+    color: DodgerBlue
+}
+
+#Abstract{
+    color: DodgerBlue
+}
+
+#Experience{
+    color: DodgerBlue
+}
+
+#Interests{
+    color: DodgerBlue
+}
+
+#ExternalLinks{
+    color: DodgerBlue
+}
+
+.Companies {
+    color: red;
+}
+
+.Position {
+    color: Indigo;
+}
