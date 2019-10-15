@@ -1,0 +1,149 @@
+header{
+  background-color: lightsteelblue;
+  width: 650px;
+  height: auto;
+  padding: 20px 20px 20px 20px;
+
+  border-width: 0px 0px 10px 0px;
+  border-color: black;
+  border-style: solid;
+
+  margin: 0 auto;
+  margin-top: -10px;
+  }
+
+main{
+  background-color: lightsteelblue;
+  width: 650px;
+/* height: 100px; */
+  height: auto;
+/* height: auto; allows the container to grow depending on content */
+
+
+  padding: 400px;
+  /* adjusts all sides equally */
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+
+
+
+
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+}
+
+footer{
+  background-color: black;
+  width: 720px;
+  height: 10px;
+  margin: 0 auto;
+}
+
+
+nav{
+  background-color: lightsteelblue;
+  width: 320px;
+  margin: 0 auto;
+}
+
+nav ul{
+
+
+}
+
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+
+}
+
+nav ul li a{
+  color: red;
+  text-decoration: none;
+
+}
+
+nav ul li a:hover{
+  background-color: gray;
+}
+
+h1{
+  text-align: center
+}
+
+h2{
+  text-align: center;
+  text-decoration: underline;
+}
+
+
+#grid1{
+  /* make sure id is in section tag*/
+  width: 700px;
+  height: auto;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 50px;
+  grid-template-columns: 300px 600px;
+  grid-column-gap: 20px;
+}
+#grid1 img{
+  width: 320px;
+}
+
+#grid2{
+    /* make sure id is in section tag*/
+    width: 700px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 0px;
+    display: grid;
+    grid-template-rows: 600px;
+    grid-template-columns: 190px 300px;
+    grid-column-gap: 20px;
+}
+#grid2 img{
+  width: 170px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#grid3{
+  /* make sure id is in section tag*/
+
+  width: 700px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: -300px;
+  margin-left: 25px;
+  display: grid;
+  grid-template-rows: 50px;
+  grid-template-columns: 190px 190px;
+  grid-column-gap: 20px;
+}
+#grid3 img{
+  width: 400px;
+  margin: 0 auto;
+}
+
+
+#grid4{
+    /* make sure id is in section tag*/
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 250px;
+    grid-template-columns: 190px 190px;
+    grid-column-gap: 20px;
+  }
+
+#grid5 img{
+  width: 200px;
+}
