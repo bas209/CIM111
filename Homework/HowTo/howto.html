@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>How To Make The Perfect Toast</title>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/layout.css">
+
+
+
+  </head>
+
+  <style>
+
+  body{
+    background-color: PaleGoldenRod;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+
+
+section{
+  text-align: center;
+}
+
+
+span.tip {
+
+    /* Required */
+    position: absolute;
+    z-index: 2;
+    display: none;
+
+    /* Optional */
+    font-size: 15px;
+    max-width: 150px;
+    height: auto;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px #666;
+    background: #FD0;
+}
+
+
+  </style>
+
+
+
+
+
+  <body>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/Javascript" src="js/jquery.js"></script>
+    <script src="jQuery.min.js"></script>
+    <script src="jQuery.mousetip.js"></script>
+
+
+
+    <h1>How To Make "The Perfect Toast"</h1>
+    <p style="text-align:center"> They say, "Breakfast is the most important meal of the day". They're right. A nutritious breakfast gives one the energy to accomplish anything and everything in the AM hours. However, sometimes we are rushed in the morning. We simply do not have time to prepare a full breakfast. Here is your solution. Introducing: The Perfect Toast. The protein, carbs, and mouth-watering taste you need to devour your day.</p>
+
+
+
+      <section class="grid1" id="section1">
+      <h1 id="section1show">Step1: Take Out Ingredients<span class="tip">Healthy Ingredients = More Nutrition</span></h1>
+
+      <section id="section1toggle">
+        <ul>
+          <li>Frozen,Cinnamon Raisin, Ezekiel Bread</li>
+          <li>Peanut Butter</li>
+          <li>Banana</li>
+          <li>Cinnamon or Cinnamon Sugar</li>
+          <li>Knife</li>
+        </ul>
+
+        <img src="images/Step1.jpg" alt="Step1" width="500">
+        <p>First, begin by gathering your ingredients. The recommended bread for this toast is frozen, cinnamon-raisin, ezekiel bread. I don't know why, but it just tastes better frozen. Next, select the peanut butter of your choice. Grab one, medium sized banana. Side Note: You may not need the whole banana. Finally, you will need cinnamon or cinnamon sugar and a knife. </p>
+
+      </section>
+
+
+      <section class="grid2" id="section2">
+      <h1 id="section2show">Step2: Place Bread In Toaster<span class="tip">Frozen Bread is Yummy!</span></h1>
+
+      <section id="section2toggle">
+        <p>Place the frozen cinnamon raisin bread into your toaster. Whether you have a vertical, two slot toaster or a toaster oven, make sure you are familiar with your heating settings. Self-evaluate: Are you a lightly-toasted gal, a burnt bread boy, or somewhere in the middle? Apply the appropiate heat. </p>
+
+          <img src="images/Step2.jpg" alt="Step2" width="500">
+
+      </section>
+
+
+
+      <section class="grid3" id="section3">
+      <h1 id="section3show">Step3: Take Out Toast, Spread Peanut Butter<span class="tip">Creamy PB > Crunchy PB</span></h1>
+      <section id="section3toggle">
+        <p>Once the bread is toasted to your liking, take out the toast and place it on a plate. Let it cool for a couple seconds, then spread the peanut butter. You want the chilled or room temperature peanut butter to compliment the warm toast. </p>
+
+          <img src="images/Step3.jpg" alt="Step3" width="500">
+      </section>
+
+
+      <section class="grid4" id="section4">
+      <h1 id="section4show">Step4: Slice and Apply Banana<span class="tip">B-a-n-a-n-a-s</span></h1>
+      <section id="section4toggle">
+      <p>Take your knife and cut your banana into 9 slices. This number will roughly cover the surface area of your cinnamon-raisin toast. The thickness of your banana slices is a personal preference, however I recommend 1/4 inch per slice. </p>
+
+        <img src="images/Step4.jpg" alt="Step4" width="500">
+      </section>
+
+
+
+      <section class="grid5" id="section5">
+      <h1 id="section5show">Step5: Sprinkle Cinnamon and Enjoy<span class="tip">Let's Have A Toast!</span></h1>
+      <section id="section5toggle">
+      <p>After the banana slices are placed on the bread, sprinkle the cinnamon or cinnamon sugar on top. Be sure to evenly disperse the cinnamom to avoid an experience similar to those who have attempted the vine-famous, "Cinnamon Challenge". Enjoy your toast and attack the day!</p>
+
+        <img src="images/Step5.jpg" alt="Step5" width="500">
+      </section>
+
+
+
+
+        <script type="text/javascript">
+          $(document).ready(function(){
+            $('h1').mousetip('.tip');
+
+
+
+            $("#section1toggle").hide();
+
+
+            $("#section1show").click(function(){
+
+            $("#section1toggle").slideToggle();
+
+            });
+
+
+            $("#section2toggle").hide();
+
+
+            $("#section2show").click(function(){
+
+            $("#section2toggle").slideToggle();
+
+            });
+
+
+            $("#section3toggle").hide();
+
+
+            $("#section3show").click(function(){
+
+            $("#section3toggle").slideToggle();
+
+            });
+
+
+            $("#section4toggle").hide();
+
+
+            $("#section4show").click(function(){
+
+            $("#section4toggle").slideToggle();
+
+            });
+
+            $("#section5toggle").hide();
+
+
+            $("#section5show").click(function(){
+
+            $("#section5toggle").slideToggle();
+
+            });
+
+
+
+
+                });
+        </script>
+
+
+
+
+
+
+
+
+  </body>
+</html>
