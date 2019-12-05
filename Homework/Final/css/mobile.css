@@ -1,0 +1,110 @@
+@import "desktop.css";
+
+header{
+  background-color: lavender;
+  width: 300px;
+}
+
+
+main{
+  background-color: lavender;
+  /* I wanted to keep the color scheme continous into the mobile version for uniformity purposes */
+  width: 300px;
+}
+
+footer{
+  background-color: black;
+  width: 300px;
+}
+
+nav{
+  background-color: lavender;
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+nav ul li{
+  width: 250px;
+  display: block;
+  text-align: center;
+
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+  text-decoration: underline;
+}
+
+
+#para{
+text-align: center;
+width: 250px;
+margin-left: 28px;
+
+}
+
+
+#grid1, #grid2{
+  width: 300px;
+  display: block;
+  text-align: center;
+}
+
+
+#Gabe1{
+  width: 300px;
+}
+
+#Gabe2{
+  width: 300px;
+
+}
+
+#Gabe3{
+  width: 300px;
+  margin-top: 60px;
+  margin-left: 0px;
+}
+
+#moodboard{
+  width: 300px;
+}
+
+#sketches{
+  width: 300px;
+  margin-top: 10px;
+}
+
+#development{
+  width: 300px;
+  margin-top: 10px;
+  margin-bottom: -50px;
+}
+
+#grid3{
+  width:300px;
+  display: block;
+  margin-left: -1px;
+}
+
+#photogrid{
+  width:300px;
+  margin-top: 10px;
+}
+
+#grid4{
+  width:300px;
+  display: block;
+  margin-left: -1px;
+}
+
+#resumephoto{
+  width:300px;
+  margin-top: 10px;
+}
